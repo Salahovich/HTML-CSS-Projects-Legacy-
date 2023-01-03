@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    height: 659px;
+    background: #F2F2F2;
+    margin: 0px;
+}
+.container .Moz{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    direction: rtl;
+    height: 70px;
+}
+.container .Moz a{
+    opacity: 0.6;
+    transition: 0.1s ease-in-out all;
+}
+.container .Moz a:hover{
+    opacity: 1;
+}
+#logo-search{
+    width: 100%;
+height: 400px;
+text-align: center;
+}
+#logo-search #logo{
+    margin: 0 auto;
+position: relative;
+top: 40px;
+}
+#logo-search #search{
+    position: relative;
+    top: 65px;
+}
+#logo-search #search .icon{
+    display: inline;
+    position: absolute;
+}
+#logo-search #search .icon i{
+   top: 8px;
+    position: absolute;
+    right: -28px;
+    font-size: 22px;
+    color: hsl(0, 0%, 50%);
+}
+#logo-search #search .inp{
+    display: inline;
+}
+#logo-search #search .inp input{
+    width: 461px;
+    height: 40px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding-inline-start: 34px;
+    box-shadow: 0 1px 0 hsla(210,65%,9%,.02) inset, 0 0 2px hsla(210,65%,9%,.1) inset, 0 1px 0                 hsla(0,0%,100%,.2);
+    color: #000;
+    font-size: 17px;
+    padding-inline-end: 46px;
+}
+#logo-search #search .inp input:focus{
+   outline: none;
+   border: 1px solid;
+    border-color: hsla(206,100%,60%,.6) hsla(206,76%,52%,.6) hsla(204,100%,40%,.6);
+}
+#logo-search #search .go{
+    display: inline;
+    position: absolute;
+}
+#logo-search #search .go i{
+    top: 1px;
+position: absolute;
+left: -48px;
+font-size: 22px;
+width: 47px;
+background: linear-gradient(hsla(0, 0%, 95%, 0.8), hsla(0, 0%, 76%, 0.1));
+height: 38px;
+border-radius: 0 2px 2px 0;
+line-height: 36px;
+box-shadow: 0 0 2px hsla(0, 0%, 78%, 0.5) inset, 0 1px 0 hsla(0, 0%, 80%, 0.2);
+cursor: pointer;
+color: hsl(216, 3%, 39%);
+}
+#logo-search #search .go i:focus{
+    box-shadow: 0 1px 0 hsla(0,0%,100%,.2) inset, 0 0 0 1px hsla(0,0%,100%,.1) inset, 0 1px 0                   hsla(210,54%,20%,.03), 0 0 4px hsla(206,100%,20%,.2);
+    background: linear-gradient(#66bdff, #0d9eff);
+    color: #fff;
+    border-color: hsla(206,100%,60%,.6) hsla(206,76%,52%,.6) hsla(204,100%,40%,.6);
+    transition: 100ms ease-in-out all;
+}
+#logo-search #search .go i:hover{
+    box-shadow: 0 1px 0 hsla(0,0%,100%,.2) inset, 0 0 0 1px hsla(0,0%,100%,.1) inset, 0 1px 0                   hsla(210,54%,20%,.03), 0 0 4px hsla(206,100%,20%,.2);
+    background: linear-gradient(#66bdff, #0d9eff);
+    color: #fff;
+    border-color: hsla(206,100%,60%,.6) hsla(206,76%,52%,.6) hsla(204,100%,40%,.6);
+    transition: 100ms ease-in-out all;
+}

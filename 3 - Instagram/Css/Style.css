@@ -1,0 +1,197 @@
+*{
+    text-decoration: blink;
+}
+body{
+    background:#fafafa;
+}
+.container{
+    float: right;
+    width: 90%;
+    height: 830px;
+}
+.pic{
+        float: left;
+    margin-left: 264px;
+    margin-top: 136px;
+}
+.Signin-up{
+    width: 350px;
+    height: 701px;
+    float:right;
+    margin-right: 300px;
+    margin-top: 30px;
+    height: 598px
+}
+.Signup{
+    float: right;
+    width: 350px;
+    height: 524px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+}
+.Signup img{
+    width: 257px;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+h2{
+    margin: -20px 62px 0px 64px;
+    color: #999;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 22px;
+    width: 232px;
+}
+.Signup .loginface{
+    width: 268px;
+    height: 30px;
+    float: left;
+    margin-left: 43px;
+    margin-right: 41px;
+    background: #3897f0;
+    border-radius: 4px;
+    margin-top: -15px;
+}
+.Signup .loginface a{
+    color: #fff;
+    font-family: janna lt;
+    font-weight: 600;
+    float: left;
+    margin-left: 53px;
+}
+.Or{
+    float: left;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+.Or .Before{
+        width: 110px;
+    height: 1px;
+    float: left;
+    margin-left: 43px;
+    background: #a6a5a5;
+}
+.Or .After{
+    width: 110px;
+    height: 1px;
+    float: right;
+        background: #a6a5a5;
+}
+.Or h4{
+  display: inline;
+    font-size: 15px;
+    font-family: Arial;
+    margin-top: -9px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+        color: #a6a5a5;
+}
+.Registration{
+    width: 79%;
+    padding: 10px;
+    margin-left: 28px;
+    height: 302px;
+}
+.Registration form input{
+    width: 98%;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    padding: 3px 5px 3px 5px;
+    font-size: 15px;
+    font-family: Arial;
+    margin-bottom: 6px;
+}
+.Registration form input:focus{
+    border: 1px solid #b2b2b2;
+        outline: none;
+}
+.But-Signup{
+    width: 102%;
+    height: 30px;
+    background: #3897f0;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.But-Signup a{
+    color: #fff;
+    font-family: Arial;
+    float: left;
+    margin-left: 104px;
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 17px;
+}
+p{
+    font-family: Arial;
+    text-align: center;
+    line-height: 21px;
+    color: #a8a8a8;
+}
+p a{
+    color: #9c9c9c;
+    font-weight: bold;
+}
+.Signin{
+        float: left;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    margin-left: -2px;
+    margin-top: 11px;
+}
+.Login{
+        color: #000;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 19px;
+}
+.Login a{
+    color: #38a4f3;
+    font-weight: 100;
+}
+.down-app{
+    float: right;
+    width: 353px;
+    margin-top: 10px;
+    margin-right: 299px;
+}
+.down-app h3{
+    font-family: arial;
+    font-weight: 100;
+    text-align: center;
+    font-size: 16px;
+}
+.Google{
+    width: 136px;
+    height: 49px;
+    margin-left: 30px;
+}
+.Apple{
+    width: 165px;
+    height: 48px;
+}
+ul{
+    float: left;
+    margin-top: 25px;
+    
+}
+ul li{
+    float: left;
+    list-style: none;
+    color: #0081ff;
+    margin-right: 28px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+.copyrights{
+    float: right;
+    margin-right: 136px;
+    margin-top: 25px;
+    color: #a8a8a8;
+    font-weight: bold;
+    font-size: 12px;
+}

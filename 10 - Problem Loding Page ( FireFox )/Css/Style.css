@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    height: 643px;
+    background: #fbfbfb;
+}
+.container .Page{
+    text-align: left;
+    align-items: center;
+    width: 70%;
+    float: left;
+    margin-top: 130px;
+    margin-left: 260px;
+    color: #3e3e3e;
+}
+.container .Page img{
+    width: 70px;
+    margin-left: -100px;
+    position: absolute;
+    top: 170px;
+}
+.container .Page h1{
+    margin-left: 0px;
+    font-weight: 100;
+    font-size: 45px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    padding-bottom: 13px;
+    margin-bottom: 0;
+}
+.container .Page ol{
+    margin: 0px;
+    margin-left: -26px;
+    margin-block-end: ;
+}
+.container .Page ol li{
+   margin-bottom: 5px;
+   list-style: outside;
+}
+.container .Page button{
+    width: 150px;
+    height: 35px;
+    margin-top: 35px;
+    background: #0095dd;
+    border: 1px solid #0095dd;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}

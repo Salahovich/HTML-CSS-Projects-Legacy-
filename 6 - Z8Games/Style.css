@@ -1,0 +1,178 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial;
+}
+body{
+    margin: 0px;
+    height: 1065px;
+    background: url(Background.jpg) center no-repeat #162b36;
+}
+.header{
+    width: 1349px;
+    height: 75px;
+    background: #fff;
+    border-bottom: 4px solid #cb2b1b;
+}
+.header .Logo{
+    float: left;
+    margin-top: 16px;
+    margin-left: 35px;
+}
+button{
+    float: right;
+    margin-top: 22px;
+    width: 88px;
+    height: 34px;
+    margin-right: 200px;
+    border-radius: 4px;
+    background: #cd1d12;
+    border: 1px solid #cd1d12;
+    color: #fff;
+    cursor: Pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+button:hover{
+    background: linear-gradient(#da3f1e,#d32810);
+    box-shadow: 0 1px 0 #d9d9d9;
+}
+.header ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 31px;
+    margin-right: 32px;
+}
+.header ul li{
+    float: left;
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.header ul li a{
+    color: #000;
+}
+.container{
+    float: left;
+    width: 1349px;
+    height: 880px;
+}
+.reg{
+    float: none;
+    text-align: center;
+    width: 312px;
+    height: 946px;
+    margin: 0 auto;
+    padding: 30px 0 10px 0;
+}
+.reg h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.reg form .Info{
+    border: 1px solid #76cdff;
+    box-shadow: 0 0 10px #a7c9ff;
+}
+.Form-Group input{
+    width: 92%;
+    height: 27px;
+    background: #0d1c26;
+    border: 1px solid #0d1c26;
+    border-bottom: 1px solid #3f5765;
+    padding: 11px;
+    font-size: 15px;
+    color: #fff;
+}
+.Form-Group input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.Form-Group select{
+     width: 309px;
+    height: 51px;
+    background: #0d1c26;
+    border: 1px solid #0d1c26;
+    border-bottom: 1px solid #3f5765;
+    padding: 11px;
+    font-size: 15px;
+    color: #fff;
+}
+.Date{
+    float: left;
+    margin-top: 10px;
+}
+.Date label{
+    float: left;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+.Date select{
+        width: 98px;
+    height: 49px;
+    margin-right: 3px;
+    background: #0d1c26;
+    border: 1px solid #76cdff;
+    box-shadow: 0 0 10px #a7c9ff;
+    color: #fff;
+    padding: 10px;
+}
+.Gender{
+    float: left;
+    margin-top: 20px;
+    color: #fff;
+}
+.Gender input{
+    margin-left: 13px;
+    font-size: 15px;
+}
+.Terms{
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+.Terms label{
+    color: #fff;
+    font-size: 14px;
+}
+.Terms label a{
+    color: #35aab4;
+    text-decoration: underline;
+}
+.Button{
+    float: left;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+.Button input{
+    width: 200px;
+    height: 54px;
+    border-radius: 4px;
+    background: #cd1d12;
+    border: 1px solid #cd1d12;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Button input:hover{
+    background: linear-gradient(#da3f1e,#d32810);
+}
+.footer{
+        float: left;
+    width: 1349px;
+    height: 149px;
+    background: #0b1d29;
+}
+.footer p{
+    float: right;
+    color: #fff;
+    width: 430px;
+    margin-right: 140px;
+    margin-top: 40px;
+    font-size: 14px;
+}

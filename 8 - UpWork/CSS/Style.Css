@@ -1,0 +1,127 @@
+*{
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    height: 670px;
+    background: #f9f9f9;
+}
+.header{
+    width: 100%;
+    height: 71px;
+    background: #fff;
+    border-bottom: 2px solid #e0e0e0;
+    margin-top: 15px;
+    float: left;
+}
+.header img{
+        width: 130px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 3px;
+}
+.header h3{
+    float: right;
+    font-family: Gotham Thin;
+    font-size: 15px;
+    margin-top: 28px;
+    margin-right: 170px;
+}
+.header h3 a{
+    float: right;
+    margin-left: 5px;
+    color: rgb(66, 192, 43);
+    font-family: Gotham Medium;
+}
+.header h3 a:hover{
+text-decoration: underline;
+}
+.Reg{
+        float: left;
+    width: 540px;
+    height: 334px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4%;
+    background: #fff;
+    border: 2px solid #ddd;
+}
+.Reg .card{
+    width: 85%;
+    height: 75%;
+    padding: 42px;
+}
+.Reg .card .type{
+    margin-top: 30px;
+    width: 470px;
+}
+.Reg .card h1{
+    font-family: Gotham light;
+    text-align: center;
+    font-size: 27px;
+    color: #494949;
+    font-weight: bolder;
+}
+.Reg .card input{
+    width: 190px;
+    height: 32px;
+    display: inline;
+    margin-right: 26px;
+    margin-top: 21px;
+    font-family: Gotham light;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 7px;
+    border: 2px solid #ddd;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+}
+.Reg .card input:hover{
+    border: 2px solid #008329;
+}
+.Reg .card input:focus{
+    border: 2px solid #008329;
+    outline: none;
+}
+.Reg .card .type button{
+       width: 165px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid #37a000;
+    cursor: pointer;
+    margin-left: 130px;
+    margin-top: 34px;
+    font-size: 17px;
+    font-family: Gotham Medium;
+    text-align: center;
+    background: #37a000;
+    color: #fff;
+    line-height: 14px;
+}
+.Reg .card .type button:hover{
+ background: #008329;
+}
+.container .footer{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background: #494949;
+    margin-top: 40px;
+    text-align: center;
+}
+.container .footer h3{
+    font-family: Gotham Light;
+    color: #fff;
+    margin-top: 30px;
+}
+.container .footer a{
+    font-family: Gotham Light;
+    color: #787878;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.container .footer a:hover{
+text-decoration: underline;
+}

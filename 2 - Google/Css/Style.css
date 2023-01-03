@@ -1,0 +1,215 @@
+*{
+    text-decoration: blink;
+}
+
+.header{
+    width: 1366px;
+    height: 46px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.but-Login{
+    width: 88px;
+    height: 30px;
+    float: left;
+    background: #4285f4;
+    margin-left: 34px;
+    margin-top: 14px;
+    border-radius: 4px;
+}
+.but-Login:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.but-Login a{
+    text-decoration: blink;
+    font-size: 17px;
+    color: #fff;
+    font-family: Janna lt;
+    float: left;
+    margin-left: 18px;
+    margin-top: -2px;
+}
+.img-gmail{
+    float: left;
+    margin-left: 32px;
+}
+.img-gmail a{
+    color: #000;
+    text-decoration: blink;
+    font-family: Janna lt;
+    float: left;
+    margin-top: -3px;
+    margin-right: 25px;
+}
+.img-gmail a:hover{
+    text-decoration: underline;
+    color:#000;
+}
+.Container{
+    float: left;
+    width: 100%;
+    height: 600px;
+    background: #fff;
+}
+.Logo-Search{
+    float: left;
+    width: 611px;
+    height: 155px;
+    margin-top: 160px;
+    margin-left: 370px;
+}
+.Logo{
+    float: left;
+    width: 600px;
+}
+.Logo-Search .Logo img{
+    float: left;
+    margin-left: 175px;
+}
+p{
+    margin-top: 27px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color:#4285f4;
+}
+.Search{
+    float: left;
+    width: 600px;
+    margin-top: 5px;
+}
+.Search input{
+    width: 584px;
+    height: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    border: 1px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 13px;
+}
+.Search form img{
+    display: inline;
+    float: left;
+    margin-top: -25px;
+}
+.Buttons{
+    width: 350px;
+    height: 60px;
+    float: right;
+    margin-right: 466px;
+    margin-top: -29px;
+}
+.But-Search{
+    float: left;
+    width: 102px;
+    height: 36px;
+    background: #f2f2f2;
+    margin-top: 13px;
+    margin-left: 38px;
+    border-radius: 2px;
+    border: 1px solid #f2f2f2;
+
+}
+.But-Luck{
+    float: left;
+    width: 120px;
+    height: 36px;
+    background: #f2f2f2;
+    margin-top: 13px;
+    margin-left: 10px;
+    border-radius: 2px;
+    border: 1px solid #f2f2f2;
+
+}
+.But-Search a{
+    text-decoration: blink;
+    color: #757575;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #f2f2f2;
+    float: left;
+    margin-top: 7px;
+    margin-left: 20px;
+
+}
+.But-Search:hover{
+    background:#f8f8f8;
+    -webkit-border-radius:2px;
+    color:#222;
+    border:1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);  
+}
+.But-Luck a{
+    text-decoration: blink;
+    color: #757575;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 10px;
+    float: left;
+    -webkit-margin-top: 10px;
+}
+.But-Luck:hover{
+    background:#f8f8f8;
+    border-radius:2px;
+    color:#222;
+    border:1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);  
+}
+.Lang{
+    color: #000;
+    margin-left: 546px;
+}
+.footer{
+    float: left;
+    width: 1366px;
+    height: 40px;
+    background: #ddd;
+    margin-left: -8px;
+    margin-top: -24px;
+}
+.footer .Left-ul{
+    float:left;
+}
+.footer .Left-ul ul{
+        float: left;
+    padding: 0px;
+    margin: 0px;
+}
+.footer .Left-ul ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 28px;
+    margin-top: 12px;
+    color:#000;
+}
+.footer .Left-ul ul li a{
+    color:#666;
+}
+.footer .Left-ul ul li a:hover{
+    text-decoration: underline;
+}
+.footer .Right-ul{
+    float:right;
+}
+.footer .Right-ul ul{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+.footer .Right-ul ul li{
+    list-style-type: none;
+    float: right;
+    margin-right: 28px;
+    margin-top: 12px;
+}
+.footer .Right-ul ul li a{
+    color:#666;
+}
+.footer .Right-ul ul li a:hover{
+    text-decoration: underline;
+}
